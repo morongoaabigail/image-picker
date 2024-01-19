@@ -93,19 +93,7 @@ export default function Home() {
 
     return (
         <SafeAreaView style={styles.container}>
-            <View style={styles.topContainer}>
-                <TouchableOpacity>
-
-                    <MaterialCommunityIcons name='flash-off' size={30} color={"#fff"} />
-
-                </TouchableOpacity>
-                <TouchableOpacity>
-                    <MaterialCommunityIcons name='hdr-off' size={30} color={"#fff"} />
-                </TouchableOpacity>
-                <TouchableOpacity>
-                    <MaterialCommunityIcons name='format-align-justify' size={30} color={"white"} />
-                </TouchableOpacity>
-            </View>
+           
             <View style={styles.cameraContainer}>
                 <Camera
                     ref={(ref) => setCamera(ref)}
